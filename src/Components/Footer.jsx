@@ -1,12 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const ContainerFooter = styled.footer``
+const ContainerFooter = styled.footer`
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #aaa;
+  height: 10rem;
+  padding-top: 5rem;
+  box-sizing: border-box;
+`
 
 export const Footer = () => {
   return (
     <ContainerFooter>
-      <h1>Footer</h1>
+      <p>Direitos reservados</p>
     </ContainerFooter>
   )
 }

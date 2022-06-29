@@ -8,8 +8,16 @@ import { Products } from './Pages/Products'
 import { Contact } from './Pages/Contact'
 import { Product } from './Pages/Product'
 
-const AppContainer = styled.div``
-const AppContent = styled.div``
+const AppContainer = styled.div`
+  max-width: 40rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh + 10rem);
+`
+const AppContent = styled.div`
+  flex: 1;
+`
 
 export const App = () => {
   return (
