@@ -1,10 +1,11 @@
 import React from 'react'
+import './css/App.css'
 import styled from 'styled-components'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Footer } from './Components/Footer'
 import { Header } from './Components/Header'
-import { Produtos } from './Components/Produtos'
-import { Contato } from './Components/Contato'
+import { Products } from './Components/Products'
+import { Contact } from './Components/Contact'
 
 const AppContainer = styled.div``
 
@@ -17,8 +18,8 @@ export const App = () => {
         <Header />
         <AppContent>
           <Routes>
-            <Route path="/" element={<Produtos />} />
-            <Route path="contato" element={<Contato />} />
+            <Route path="/" element={<Products />} />
+            <Route path="contact" element={<Contact />} />
           </Routes>
         </AppContent>
         <Footer />

@@ -1,0 +1,30 @@
+body {
+  margin: 2rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+.animeleft {
+  transform: translateX(-20px);
+  opacity: 0;
+  animation: animeleft 0.3s forwards;
+}
+
+@keyframes animeleft {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}

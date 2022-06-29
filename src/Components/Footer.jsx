@@ -1,6 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 
+const ContainerFooter = styled.footer``
+
 export const Footer = () => {
-  return <div>Footer</div>
+  return (
+    <ContainerFooter>
+      <h1>teste</h1>
+    </ContainerFooter>
+  )
 }
