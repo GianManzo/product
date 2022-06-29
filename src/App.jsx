@@ -4,8 +4,8 @@ import styled from 'styled-components'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Footer } from './Components/Footer'
 import { Header } from './Components/Header'
-import { Products } from './Components/Products'
-import { Contact } from './Components/Contact'
+import { Products } from './Pages/Products'
+import { Contact } from './Pages/Contact'
 
 const AppContainer = styled.div``
 
