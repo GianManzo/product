@@ -6,7 +6,7 @@ const ContainerFooter = styled.footer``
 export const Footer = () => {
   return (
     <ContainerFooter>
-      <h1>teste</h1>
+      <h1>Footer</h1>
     </ContainerFooter>
   )
 }

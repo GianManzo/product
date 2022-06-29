@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/App.css'
 import styled from 'styled-components'
 import img from '../img/contato.jpg'
+import { Helmet } from 'react-helmet'
 
 const ContactSecion = styled.section`
   display: grid;
@@ -32,6 +33,11 @@ const ContactUl = styled.ul`
 export const Contact = () => {
   return (
     <ContactSecion className="animeleft">
+      <Helmet>
+        <title>React | Contato</title>
+        <meta name="description" content="Entre em contato" />
+      </Helmet>
+
       <img src={img} alt="maquina de escrever" />
       <ContactContent>
         <h1>Entre em contato.</h1>
